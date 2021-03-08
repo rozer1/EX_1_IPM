@@ -20,11 +20,22 @@
   <label for="email">Kod pocztowy:</label>
 </dt>
 <dd>
-  <input type="email" id="email" placeholder="00-000" name="email" pattern="^[0-9]{2}-[0-9]{3}$">
+  <input type="kod_pocztowy" id="kod_pocztowy" placeholder="00-000" name="kod_pocztowy" pattern="^[0-9]{2}-[0-9]{3}$">
   <input type="submit">
 </dd>
 </form>
 </dl>
+
+<dl>
+<form action="/action_page.php">
+<dt>
+	<label for="email">NIP:</label>
+</dt>
+<dd>
+	<input type="nip" id="nip" placeholder="XXX-XX-XX-XXX" name="nip" pattern="^((\d{3}[- ]\d{3}[- ]\d{2}[- ]\d{2})|(\d{3}[- ]\d{2}[- ]\d{2}[- ]\d{3}))$">
+	<input type="submit">
+</dd>
+</form>
 
 </body>
 </html>

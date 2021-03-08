@@ -1,1 +1,16 @@
-<h1> Hello, World! <h1>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input pattern attribute</h1>
+
+<p>A form with an email field that that must be in the following order: characters@characters.domain </p>
+
+<form action="/action_page.php">
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="example@example.domain" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+  <input type="submit">
+</form>
+
+</body>
+</html>

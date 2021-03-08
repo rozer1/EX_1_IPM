@@ -100,5 +100,17 @@
 </form>
 </dl>
 
+<dl>
+<form action="/action_page.php">
+<dt>
+	<label for="etc_path">Ścieżka do pliku w katalogu:</label>
+</dt>
+<dd>
+	<input type="text" id="etc_path" placeholder="/etc/passwd" name="etc_path" pattern="(|((\\|/){1,2}\w+)\$?)((\\|/)(\w[\w ]*.*))" title="Ścieżka">
+	<input type="submit">
+</dd>
+</form>
+</dl>
+
 </body>
 </html>
